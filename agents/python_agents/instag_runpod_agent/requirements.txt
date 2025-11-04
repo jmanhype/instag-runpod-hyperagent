@@ -1,6 +1,6 @@
-fastapi
-uvicorn
-runpod
-paramiko
-requests
+fastapi==0.110.0
+uvicorn==0.29.0
+runpod==1.6.2
+paramiko==3.4.0
+requests==2.31.0
 
