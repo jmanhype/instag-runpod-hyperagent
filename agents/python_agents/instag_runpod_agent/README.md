@@ -11,11 +11,18 @@ This Python agent is designed to automate the InsTaG (Implicit Suffix Tree Graph
 
 ## Tech Stack
 - Python 3.9+
-- FastAPI (async HTTP, OpenAPI docs)
-- Uvicorn (ASGI server)
-- RunPod SDK (`runpod`)
-- Paramiko (for SSH)
-- Requests (for HTTP calls)
+- FastAPI 0.110.0 (async HTTP, OpenAPI docs)
+- Uvicorn 0.29.0 (ASGI server)
+- RunPod SDK 1.6.2 (`runpod`)
+- Paramiko 3.4.0 (for SSH)
+- Requests 2.31.0 (for HTTP calls)
+
+## Code Quality Features
+- **Type hints**: Full type annotations for better IDE support and type safety
+- **Comprehensive error handling**: Validates A2A messages and handles errors gracefully
+- **Structured logging**: Uses Python logging module for debugging and monitoring
+- **Docstrings**: Google-style docstrings for all public functions and classes
+- **Pinned dependencies**: All dependencies have specific versions for reproducibility
 
 ## Usage
 
